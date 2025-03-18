@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+
+:root{
+	--menu-hover:#FE8F01;
+	--color-general:#898989;
+	--color-titulos:#282d33;
+	--color-iconos: #e0e0e0;
+	--color-checks:#53c3c9;
+}
+
+body{
+	font-size: 14px;
+}
+header{
+	background-color: #FFF;
+	padding: 5px 0;
+	border-bottom:1px solid #eee;
+	margin-bottom:10px;
+}
+footer{
+	background-color: #333333;
+	color: #bababa;
+	padding: 15px 0;
+	text-align: center;
+}
+
+#hero{
+	text-align: center;
+}
+
+#hero h1{
+	color: #282d33;
+	margin-bottom: 20px;
+	padding-top:50px;
+}
+
+#hero p{
+	color: #898989;
+	margin-bottom: 100px;
+}
+
+#services{
+	padding-bottom: 200px;
+	padding-top: 200px;
+	background-color: #f9f9f9;
+	text-align: center;
+}
+
+.check-blue{
+	color: #53c3c9;
+	font-size: 50px;
+}
+
+.icons{
+	color: #e0e0e0;
+	font-size: 130px;
+	margin-bottom: 50px;
+}
+
+#services p{
+	color: #898989;
+	margin-bottom: 30px;
+}
+
+#services h3{
+	color: #282d33;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+#cta{
+	background-image: url("../img/using-touchscreen.jpg");
+	background-size: cover;
+	padding: 150px 150px;
+	background-blend-mode: multiply;
+	background-color: rgba(0,0,0,0.20);
+	background-position: center;
+}
+
+#cta h1{
+	color: #fff;
+	font-size: 110px;
+	font-weight: 600;
+}
+
+#cta p{
+	color: #fff;
+	font-size: 28px;
+	padding-top: 40px;
+	margin-bottom: 80px;
+}
+
+.btn-light{
+	color: #000;
+	background-color: #fff;
+	padding: 20px 50px;
+	font-weight: 600;
+	font-size: 14px;
+	border-radius: 30px;
+    border: 0px;
+	margin-top: 20px;
+}
+
+#customers{
+	padding: 100px;
+	align-content: center;
+	background-color: #f9f9f9;
+}
